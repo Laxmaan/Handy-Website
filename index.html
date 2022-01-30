@@ -67,7 +67,7 @@
                 score++
         }
     }
-    document.getElementById('score').innerHTML=` Your score is ${score}/45 (${(score/45.0).toFixed(2)}%)`
+    document.getElementById('score').innerHTML=` Your score is ${score}/45 (${(score*100/45.0).toFixed(2)}%)`
 }
 </script>
 <body>
